@@ -1,42 +1,51 @@
 # CantinaGO
 
-Sistema web para gerenciamento de pedidos de cantina, desenvolvido pela equipe do Jovem Programador - SENAC.
+Sistema web para facilitar a consulta de produtos, a realização de pedidos e o acompanhamento do atendimento em uma cantina. O projeto é desenvolvido pela Equipe 5 do Jovem Programador — SENAC e também serve como experiência prática de Scrum, Git, GitHub, testes e colaboração.
 
-## Tecnologias iniciais
+## Estado atual
 
-- Java 21
-- Spring Boot 4.0.7
-- Maven
+**[CONFIRMADO — REPOSITÓRIO]**
 
-## Pré-requisitos
+- estrutura base integrada à `main` pela PR #2;
+- Java 21, Spring Boot 4.0.7 e Maven Wrapper;
+- aplicação inicial sem endpoints de negócio;
+- teste de carregamento do contexto Spring;
+- desenvolvimento organizado por Issues, branches, Pull Requests e Code Review.
 
-Para executar o projeto, é necessário possuir:
+## Classificação das informações
 
-- Java 21
-- Git
+- **[CONFIRMADO]**: verificado no repositório ou aprovado pela equipe;
+- **[PROPOSTA]**: planejamento que ainda precisa de validação;
+- **[PENDENTE]**: pergunta ou decisão ainda sem resposta;
+- **[DECISÃO]**: escolha vigente da equipe.
 
-Não é necessário instalar o Maven globalmente, pois o projeto utiliza o Maven Wrapper.
+## Executar no Windows
 
-## Executando o projeto
-
-No Windows, abra o terminal na raiz do projeto e execute:
+Pré-requisitos: Java 21 e Git. Não é necessário instalar Maven globalmente.
 
 ```powershell
+.\mvnw.cmd test
 .\mvnw.cmd spring-boot:run
 ```
 
-Quando a aplicação iniciar corretamente, o servidor estará disponível em:
+A aplicação inicia em `http://localhost:8080`. O retorno `404 Not Found` para `/` é esperado enquanto não houver endpoint nessa rota.
+
+## Documentação
+
+Comece pelo [mapa da documentação](docs/README.md). Leituras principais:
+
+- [Visão do produto](docs/VISAO_DO_PRODUTO.md)
+- [Escopo e MVP](docs/ESCOPO_E_MVP.md)
+- [Guia da equipe](docs/GUIA_DA_EQUIPE.md)
+- [Como contribuir](CONTRIBUTING.md)
+- [Uso responsável de IA](docs/USO_DE_INTELIGENCIA_ARTIFICIAL.md)
+
+## Contribuição
+
+O fluxo oficial é:
 
 ```text
-http://localhost:8080
+Backlog → Issue → branch → implementação → testes → Pull Request → revisão → merge
 ```
 
-Neste estágio inicial ainda não existe uma rota configurada para `/`, portanto acessar esse endereço pode retornar `404 Not Found`.
-
-Isso é esperado enquanto os endpoints da aplicação ainda não forem implementados.
-
-## Desenvolvimento
-
-O desenvolvimento do CantinaGO utiliza GitHub Issues, branches por atividade, Pull Requests e Code Review.
-
-Alterações não devem ser desenvolvidas diretamente na branch `main`.
+Não desenvolva diretamente na `main`. Leia [CONTRIBUTING.md](CONTRIBUTING.md) antes da primeira contribuição.
