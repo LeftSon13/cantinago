@@ -1,0 +1,22 @@
+name: Nova funcionalidade
+description: Propor uma necessidade que entrega valor ao usuário
+title: "feat: "
+body:
+  - type: textarea
+    id: context
+    attributes: {label: Contexto, description: Qual problema ou necessidade foi identificada?}
+    validations: {required: true}
+  - type: textarea
+    id: story
+    attributes: {label: História de usuário, description: "Como [usuário], quero [ação], para [benefício]."}
+    validations: {required: true}
+  - type: textarea
+    id: acceptance
+    attributes: {label: Critérios de aceitação, description: Use itens verificáveis com caixas de seleção.}
+    validations: {required: true}
+  - type: textarea
+    id: out
+    attributes: {label: Fora do escopo}
+  - type: textarea
+    id: dependencies
+    attributes: {label: Dependências e dúvidas}

@@ -1,0 +1,20 @@
+name: Documentação
+description: Criar ou corrigir documentação do projeto
+title: "docs: "
+body:
+  - type: textarea
+    id: context
+    attributes: {label: Contexto, description: O que está ausente, incorreto ou difícil de entender?}
+    validations: {required: true}
+  - type: textarea
+    id: audience
+    attributes: {label: Público, description: Equipe, novo integrante, usuário ou agente de IA?}
+    validations: {required: true}
+  - type: textarea
+    id: scope
+    attributes: {label: Conteúdo e arquivos afetados}
+    validations: {required: true}
+  - type: textarea
+    id: acceptance
+    attributes: {label: Critérios de aceitação}
+    validations: {required: true}
