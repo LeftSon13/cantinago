@@ -1,0 +1,23 @@
+name: Tarefa técnica
+description: Manutenção, infraestrutura, refatoração ou preparação técnica
+title: "chore: "
+body:
+  - type: textarea
+    id: context
+    attributes: {label: Contexto, description: Por que esta tarefa é necessária?}
+    validations: {required: true}
+  - type: textarea
+    id: objective
+    attributes: {label: Objetivo, description: Qual resultado técnico verificável deve existir?}
+    validations: {required: true}
+  - type: textarea
+    id: scope
+    attributes: {label: Escopo e fora do escopo}
+    validations: {required: true}
+  - type: textarea
+    id: acceptance
+    attributes: {label: Critérios de aceitação}
+    validations: {required: true}
+  - type: textarea
+    id: validation
+    attributes: {label: Estratégia de validação}

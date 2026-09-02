@@ -1,0 +1,26 @@
+# Glossário
+
+- **Backlog:** lista ordenada de trabalho possível.
+- **Product Backlog Item (PBI):** item de valor ou necessidade do produto.
+- **Sprint:** período fixo no qual a equipe cria um Incremento.
+- **Sprint Goal:** objetivo que orienta as escolhas da Sprint.
+- **Sprint Backlog:** objetivo, PBIs selecionados e plano dos Developers.
+- **Daily Scrum:** inspeção diária do progresso em direção à Meta.
+- **Product Owner:** responsável pela maximização de valor e Product Backlog.
+- **Scrum Master:** ajuda equipe e organização a utilizar Scrum efetivamente.
+- **Developers:** pessoas responsáveis por criar o Incremento.
+- **Kanban:** forma de visualizar e melhorar o fluxo de trabalho.
+- **WIP:** trabalho em andamento; limitar WIP ajuda a terminar antes de começar mais.
+- **Definition of Ready:** acordo auxiliar sobre preparo de itens futuros.
+- **Definition of Done:** compromisso de qualidade para considerar trabalho concluído.
+- **Issue:** registro rastreável de problema, necessidade ou tarefa no GitHub.
+- **Branch:** linha isolada de desenvolvimento.
+- **Commit:** registro versionado de uma mudança coerente.
+- **Pull Request:** proposta de integrar uma branch a outra.
+- **Code Review:** revisão por outra pessoa antes da integração.
+- **Merge:** integração do histórico e conteúdo da branch.
+- **Build:** processo de compilar, testar e empacotar o projeto.
+- **Endpoint:** endereço e operação expostos por uma API.
+- **API:** contrato para comunicação entre sistemas ou partes do produto.
+- **MVP:** menor versão que valida o fluxo principal e entrega valor.
+- **ADR:** registro de uma decisão arquitetural, alternativas e consequências.

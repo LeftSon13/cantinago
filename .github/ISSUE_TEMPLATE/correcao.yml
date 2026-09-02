@@ -1,0 +1,23 @@
+name: Correção de defeito
+description: Registrar comportamento incorreto e como reproduzi-lo
+title: "fix: "
+body:
+  - type: textarea
+    id: problem
+    attributes: {label: Problema observado}
+    validations: {required: true}
+  - type: textarea
+    id: reproduce
+    attributes: {label: Passos para reproduzir}
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes: {label: Resultado esperado}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Evidências e ambiente, description: Inclua mensagens, versões e imagens sem expor segredos.}
+  - type: textarea
+    id: acceptance
+    attributes: {label: Critérios para considerar corrigido}
+    validations: {required: true}
