@@ -6,7 +6,7 @@
 
 ## Problema
 
-**[PROPOSTA A VALIDAR]** O atendimento tradicional de uma cantina pode gerar filas, demora, dificuldade para organizar pedidos e pouca visibilidade sobre o andamento do atendimento.
+**[PROPOSTA VALIDADA]** O atendimento tradicional de uma cantina pode gerar filas, demora, dificuldade para organizar pedidos e pouca visibilidade sobre o andamento do atendimento.
 
 ## Visão
 
@@ -29,6 +29,7 @@ Entregar um fluxo demonstrável no qual:
 3. o funcionário visualiza o pedido recebido;
 4. o funcionário atualiza o status;
 5. o cliente acompanha o andamento.
+6. CRUD de produtos
 
 ## Princípios
 
@@ -52,10 +53,10 @@ Entregar um fluxo demonstrável no qual:
 
 ## Perguntas pendentes
 
-- A primeira demonstração será para uma cantina real ou somente acadêmica?
-- O cliente precisará de conta no MVP?
-- Como o pedido será identificado e retirado?
-- Haverá pagamento dentro do sistema ou somente pedido?
-- Quem poderá cadastrar produtos e alterar status?
-- Quais dados pessoais são realmente necessários?
-- Qual dispositivo será priorizado: celular, computador ou ambos?
+- A primeira demonstração será para uma cantina real ou somente acadêmica? Uma demonstração em um estabelecimento real é o ideal - RESOLVIDO
+- O cliente precisará de conta no MVP? No MVP não será necessário conta - RESOLVIDO
+- Como o pedido será identificado e retirado? Para o sistema, utilizando um código hash, com ID único; para o usuário, através do nome de usuário - RESOLVIDO
+- Haverá pagamento dentro do sistema ou somente pedido? Haverá a possibilidade de pagamento pelo sistema, para o cliente apenas retirar o produto no balcão - RESOLVIDO
+- Quem poderá cadastrar produtos e alterar status? O funcionário / operador - RESOLVIDO
+- Quais dados pessoais são realmente necessários? Nome, telefone, CPF (nota de venda) - RESOLVIDO
+- Qual dispositivo será priorizado: celular, computador ou ambos? Celular é o mais presente para o usuário final; Para funcionário/operador o mais comum é computador ou tablet -
