@@ -26,7 +26,7 @@ Confirme Java 21 antes de investigar falhas de compilação.
 .\mvnw.cmd test
 ```
 
-Resultado esperado no estado inicial: um teste, sem falhas ou erros, e `BUILD SUCCESS`.
+Resultado esperado: nenhum teste com falha ou erro e `BUILD SUCCESS`. A quantidade de testes cresce conforme novos comportamentos são implementados.
 
 ## Executar
 
@@ -34,7 +34,7 @@ Resultado esperado no estado inicial: um teste, sem falhas ou erros, e `BUILD SU
 .\mvnw.cmd spring-boot:run
 ```
 
-O servidor usa a porta `8080`. Pressione `Ctrl + C` para encerrar. Um `404` em `http://localhost:8080/` é esperado enquanto não existir rota `/`.
+O servidor usa a porta `8080`. O catálogo demonstrativo pode ser consultado em `http://localhost:8080/api/produtos`. Pressione `Ctrl + C` para encerrar. Um `404` em `http://localhost:8080/` é esperado enquanto não existir rota `/`.
 
 ## Antes de começar uma tarefa
 

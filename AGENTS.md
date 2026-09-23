@@ -30,8 +30,9 @@ Não transforme memória de conversa em requisito definitivo. Não contradiga o 
 - Spring Boot 4.0.7;
 - Maven Wrapper;
 - Spring Web MVC;
-- aplicação única sem endpoints de negócio ou persistência;
-- teste inicial de contexto Spring.
+- aplicação única com catálogo fictício em memória disponível por `GET /api/produtos`;
+- sem persistência, autenticação ou frontend integrado;
+- testes de contexto Spring e do contrato HTTP do catálogo.
 
 Comandos Windows:
 
@@ -57,6 +58,13 @@ Issue → branch → implementação pequena → testes → PR → review → me
 - revisar diff antes de commit ou PR;
 - atualizar documentação afetada;
 - nunca registrar segredos ou dados pessoais desnecessários.
+- usar português brasileiro, sem acentos ou cedilha, nos nomes de pacotes, classes, métodos, variáveis e testes criados pelo projeto;
+- usar português brasileiro também nos contratos criados pelo CantinaGO, incluindo rotas e campos JSON;
+- preservar somente os termos técnicos impostos pelas linguagens, protocolos, bibliotecas e ferramentas utilizadas.
+- usar JavaDoc curto em conceitos, contratos ou decisões não óbvias que ajudem o estudo e a revisão;
+- incluir exemplos pequenos somente quando eles tornarem o comportamento mais claro;
+- explicar o motivo ou o efeito relevante, sem repetir cada linha do código;
+- manter comentários coerentes com o código e remover explicações que se tornarem obsoletas.
 
 ## Forma de colaboração
 

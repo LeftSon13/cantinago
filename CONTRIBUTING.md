@@ -22,6 +22,22 @@ Branches: `feat/12-descricao`, `fix/18-descricao`, `docs/21-descricao`, `chore/2
 
 Commits seguem prefixos como `feat:`, `fix:`, `docs:`, `test:`, `chore:` e `refactor:`.
 
+### Idioma do código
+
+- use português brasileiro nos nomes criados pelo projeto, incluindo pacotes, classes, métodos, variáveis e testes;
+- escreva identificadores sem acentos ou cedilha para manter compatibilidade com as ferramentas;
+- use português brasileiro também nos contratos criados pelo CantinaGO, incluindo rotas e campos JSON;
+- preserve nomes exigidos por bibliotecas e sufixos reconhecidos pelas ferramentas, como `Test`;
+- preserve somente os termos técnicos impostos pelas linguagens, protocolos, bibliotecas e ferramentas utilizadas.
+
+### Comentários e exemplos didáticos
+
+- use JavaDoc curto quando uma classe ou método apresentar conceito, contrato ou decisão não óbvia relevante para o estudo;
+- inclua exemplos pequenos somente quando ajudarem a compreender o comportamento;
+- explique principalmente o motivo ou o efeito relevante, sem repetir cada linha do código;
+- não comente construções evidentes apenas para aumentar a quantidade de documentação;
+- atualize ou remova comentários quando o código mudar, pois comentário desatualizado também é defeito.
+
 ## Validação
 
 ```powershell

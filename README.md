@@ -8,8 +8,9 @@ Sistema web para facilitar a consulta de produtos, a realização de pedidos e o
 
 - estrutura base integrada à `main` pela PR #2;
 - Java 21, Spring Boot 4.0.7 e Maven Wrapper;
-- aplicação inicial sem endpoints de negócio;
-- teste de carregamento do contexto Spring;
+- primeiro endpoint de negócio: consulta do catálogo fictício em memória por `GET /api/produtos`;
+- testes de carregamento do contexto Spring e do contrato HTTP do catálogo;
+- aplicação ainda sem persistência, autenticação ou frontend integrado;
 - desenvolvimento organizado por Issues, branches, Pull Requests e Code Review.
 
 ## Classificação das informações
@@ -28,7 +29,7 @@ Pré-requisitos: Java 21 e Git. Não é necessário instalar Maven globalmente.
 .\mvnw.cmd spring-boot:run
 ```
 
-A aplicação inicia em `http://localhost:8080`. O retorno `404 Not Found` para `/` é esperado enquanto não houver endpoint nessa rota.
+A aplicação inicia em `http://localhost:8080`. O catálogo demonstrativo pode ser consultado em `http://localhost:8080/api/produtos`. O retorno `404 Not Found` para `/` é esperado enquanto não houver endpoint nessa rota.
 
 ## Documentação
 
