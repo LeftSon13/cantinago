@@ -2,13 +2,12 @@
 
 ## Equipe 5
 
-- Eduarda — Developer;
 - Stefanie — Developer;
 - Jessica — Developer;
 - João Vinicius — Scrum Master e Developer;
 - João Santos — Product Owner e Developer.
 
-Os papéis representam responsabilidades, não hierarquia. Product Owner e Scrum Master podem contribuir tecnicamente sem abandonar suas responsabilidades.
+Os quatro integrantes também atuam como Developers. Os papéis representam responsabilidades, não hierarquia. Product Owner e Scrum Master podem contribuir tecnicamente sem abandonar suas responsabilidades.
 
 ## Responsabilidades
 
