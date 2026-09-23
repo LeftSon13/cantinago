@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Protótipo do cardápio da CantinaGO com dados fictícios.">
+    <title>Cardápio | CantinaGO</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="cardapio.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <a class="marca" href="./" aria-label="Página inicial do protótipo CantinaGO">
+                <span class="marca__simbolo" aria-hidden="true">C</span>
+                <span>CantinaGO</span>
+            </a>
+            <span class="identificacao">Cardápio</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="apresentacao" aria-labelledby="titulo-cardapio">
+            <p class="apresentacao__categoria">Cantina da escola</p>
+            <h1 id="titulo-cardapio">Escolha seu próximo lanche</h1>
+            <p class="apresentacao__descricao">
+                Consulte algumas opções preparadas para a demonstração do CantinaGO.
+            </p>
+            <p class="aviso">Protótipo com dados fictícios.</p>
+        </section>
+
+        <section class="cardapio" aria-labelledby="titulo-produtos">
+            <div class="cardapio__cabecalho">
+                <div>
+                    <p class="cardapio__categoria">Disponíveis agora</p>
+                    <h2 id="titulo-produtos">Produtos</h2>
+                </div>
+                <p id="quantidade-produtos" class="quantidade" aria-live="polite"></p>
+            </div>
+
+            <div id="lista-produtos" class="lista-produtos" role="list"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>CantinaGO — projeto de estudos.</p>
+    </footer>
+</body>
+</html>
