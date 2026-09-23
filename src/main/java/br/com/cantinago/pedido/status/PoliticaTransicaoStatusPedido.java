@@ -1,4 +1,4 @@
-package br.com.cantinago.order.status;
+package br.com.cantinago.pedido.status;
 
 public final class PoliticaTransicaoStatusPedido {
 
@@ -13,8 +13,8 @@ public final class PoliticaTransicaoStatusPedido {
      * quando os dois status são iguais ou quando a transição não está permitida.
      *
      * <p>
-     * As transições para {@link StatusPedido#CANCELADO} implementam a proposta
-     * RN10 e precisam de validação do Product Owner antes do merge.
+     * As transições para {@link StatusPedido#CANCELADO} implementam a RN10,
+     * aprovada pelo Product Owner.
      *
      * @param statusAtual   status atual do pedido
      * @param proximoStatus status para o qual se deseja avançar

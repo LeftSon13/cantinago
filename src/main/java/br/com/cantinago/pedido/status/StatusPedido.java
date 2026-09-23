@@ -1,4 +1,4 @@
-package br.com.cantinago.order.status;
+package br.com.cantinago.pedido.status;
 
 public enum StatusPedido {
     RECEBIDO,

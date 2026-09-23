@@ -1,4 +1,4 @@
-package br.com.cantinago.order.status;
+package br.com.cantinago.pedido.status;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -35,7 +35,7 @@ class PoliticaTransicaoStatusPedidoTest {
     }
 
     @Test
-    void devePermitirCancelamentoDeRecebidoConformePropostaRn10() {
+    void devePermitirCancelamentoDeRecebidoConformeRn10() {
         boolean resultado = PoliticaTransicaoStatusPedido.podeTransicionar(
                 StatusPedido.RECEBIDO,
                 StatusPedido.CANCELADO);
@@ -44,7 +44,7 @@ class PoliticaTransicaoStatusPedidoTest {
     }
 
     @Test
-    void devePermitirCancelamentoDeEmPreparoConformePropostaRn10() {
+    void devePermitirCancelamentoDeEmPreparoConformeRn10() {
         boolean resultado = PoliticaTransicaoStatusPedido.podeTransicionar(
                 StatusPedido.EM_PREPARO,
                 StatusPedido.CANCELADO);
@@ -53,7 +53,7 @@ class PoliticaTransicaoStatusPedidoTest {
     }
 
     @Test
-    void devePermitirCancelamentoDeProntoConformePropostaRn10() {
+    void devePermitirCancelamentoDeProntoConformeRn10() {
         boolean resultado = PoliticaTransicaoStatusPedido.podeTransicionar(
                 StatusPedido.PRONTO,
                 StatusPedido.CANCELADO);
