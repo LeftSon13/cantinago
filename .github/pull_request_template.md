@@ -20,6 +20,10 @@ Inclua resultados, exemplos ou imagens quando aplicável.
 
 -
 
+## Revisão coletiva
+
+- Revisores solicitados:
+
 ## Checklist do autor
 
 - [ ] Li a Issue e permaneci no escopo.
@@ -29,6 +33,7 @@ Inclua resultados, exemplos ou imagens quando aplicável.
 - [ ] Atualizei a documentação afetada ou expliquei por que não é necessário.
 - [ ] Nomes e contratos criados pelo projeto estão em português brasileiro.
 - [ ] Comentários e exemplos didáticos são úteis, concisos e coerentes com o código.
+- [ ] Solicitei revisão de todos os outros integrantes ativos da equipe.
 - [ ] A alteração está pronta para demonstração.
 
 ## Checklist do revisor
@@ -37,4 +42,5 @@ Inclua resultados, exemplos ou imagens quando aplicável.
 - [ ] Código e documentação estão claros.
 - [ ] Testes são proporcionais ao risco.
 - [ ] Convenções de idioma e comentários foram respeitadas.
+- [ ] Quando revisei esta PR, registrei comentário, aprovação ou solicitação de alterações.
 - [ ] Não há comentários obrigatórios pendentes.

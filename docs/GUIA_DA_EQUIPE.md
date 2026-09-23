@@ -63,6 +63,9 @@ Concluído
 - a distribuição acontece na Sprint Planning;
 - o responsável executa, mas a Sprint pertence à equipe;
 - toda entrega passa por revisão e validação;
+- todas as pessoas ativas da equipe acompanham as Pull Requests abertas e revisam conforme sua disponibilidade;
+- qualquer integrante que não seja o autor pode aprovar, e pelo menos uma aprovação é obrigatória;
+- a PR pode ser publicada sem autorização prévia e revisões ainda não realizadas não bloqueiam o merge depois que a aprovação obrigatória foi obtida;
 - bloqueios devem informar problema, ajuda necessária e próximo passo;
 - decisões importantes devem permanecer no Trello, Issue, PR ou documento apropriado;
 - responsabilidades técnicas devem girar para evitar silos permanentes.

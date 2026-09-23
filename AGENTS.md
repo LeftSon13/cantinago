@@ -51,7 +51,9 @@ Issue → branch → implementação pequena → testes → PR → review → me
 
 - não desenvolver diretamente na `main`;
 - não criar ou alterar requisitos sem validação;
-- não realizar merge sem aprovação de outro integrante;
+- não realizar merge sem pelo menos uma aprovação de outro integrante;
+- solicitar revisão de todos os outros integrantes ativos da equipe;
+- não bloquear a publicação ou o merge apenas porque parte dos revisores convidados ainda não respondeu, desde que exista a aprovação obrigatória e não haja solicitação de mudança pendente;
 - não misturar melhorias oportunistas ao escopo;
 - preservar mudanças existentes de outros integrantes;
 - não desabilitar testes para obter sucesso;

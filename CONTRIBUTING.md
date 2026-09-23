@@ -55,9 +55,18 @@ Confira também se arquivos de IDE, build, credenciais ou conteúdo sem relaçã
 - informe como validou;
 - destaque riscos e pendências;
 - informe se a documentação foi atualizada;
-- solicite revisão de outro integrante.
+- solicite revisão de todos os outros integrantes ativos da equipe.
 
-O autor não aprova a própria PR. Mudanças solicitadas devem ser corrigidas ou discutidas na própria conversa da PR.
+### Revisão coletiva
+
+- a PR pode ser publicada assim que o autor considerar o trabalho pronto para revisão, sem autorização prévia dos demais;
+- todos os integrantes ativos são convidados a acompanhar as PRs abertas e revisar conforme sua disponibilidade;
+- a revisão pode ser um comentário, uma aprovação ou uma solicitação de alterações;
+- qualquer integrante que não seja o autor pode aprovar;
+- pelo menos uma aprovação de outro integrante é obrigatória para o merge;
+- revisões ainda não realizadas pelos demais integrantes não bloqueiam o andamento depois que a aprovação obrigatória foi obtida;
+- o autor não aprova a própria PR;
+- mudanças solicitadas devem ser corrigidas ou discutidas na própria conversa da PR.
 
 ## Conclusão
 
