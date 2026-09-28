@@ -22,6 +22,8 @@ Branches: `feat/12-descricao`, `fix/18-descricao`, `docs/21-descricao`, `chore/2
 
 Commits seguem prefixos como `feat:`, `fix:`, `docs:`, `test:`, `chore:` e `refactor:`.
 
+Use português brasileiro nos nomes e contratos próprios do projeto e em explicações para a equipe. Comentários devem ser curtos e didáticos quando houver um conceito ou decisão a explicar; não precisam narrar cada linha.
+
 ## Validação
 
 ```powershell
@@ -42,6 +44,8 @@ Confira também se arquivos de IDE, build, credenciais ou conteúdo sem relaçã
 - solicite revisão de outro integrante.
 
 O autor não aprova a própria PR. Mudanças solicitadas devem ser corrigidas ou discutidas na própria conversa da PR.
+
+Qualquer outro integrante pode revisar. Uma aprovação é suficiente para o merge após as demais verificações; a leitura pelos demais é incentivada para ampliar o entendimento da equipe.
 
 ## Conclusão
 

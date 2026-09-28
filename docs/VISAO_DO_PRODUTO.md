@@ -2,7 +2,7 @@
 
 ## Origem
 
-**[CONFIRMADO — CONTEXTO DA EQUIPE]** O CantinaGO nasceu em uma atividade de Metodologias Ágeis do Jovem Programador — SENAC. Além de construir um produto, a equipe pretende aprender Scrum, Kanban, Trello, GitHub, branches, Issues, Pull Requests e Code Review.
+**[CONFIRMADO — CONTEXTO DA EQUIPE]** O CantinaGO é uma iniciativa voluntária de quatro alunos do curso de Programador Java do Jovem Programador — SENAC: Jessica, Stefanie, João Vinicius e João Santos. Não é uma entrega obrigatória de uma disciplina. Além de construir um produto, a equipe usa o projeto para praticar colaboração, Scrum, Trello, GitHub, branches, Issues, Pull Requests, Code Review e explicação do código. Datas e tarefas do planejamento são acordos da equipe, não obrigações do curso.
 
 ## Problema
 

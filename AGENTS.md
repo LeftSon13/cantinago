@@ -67,6 +67,12 @@ Issue → branch → implementação pequena → testes → PR → review → me
 - informe limitações e incertezas;
 - não entregue grandes mudanças automáticas sem torná-las revisáveis.
 
+## Revisão como aprendizagem
+
+- ao ajudar João Vinicius a revisar uma PR, leia o diff e os critérios da Issue, explique o comportamento e faça perguntas para que ele descreva o que entendeu;
+- discuta por que uma solução foi escolhida, alternativas proporcionais e como validar; separe defeitos comprovados de dúvidas e preferências;
+- não aprove ou faça merge em nome de um integrante. Basta uma aprovação humana de outra pessoa para o merge quando os demais critérios forem atendidos; a leitura de todos é incentivada, sem ser obrigatória.
+
 ## Decisões
 
 Crie registro em `docs/decisoes/` para escolhas arquiteturais relevantes e duradouras. Não crie documentos vazios. Mantenha links internos válidos e use o histórico Git como evidência de evolução.

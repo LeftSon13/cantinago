@@ -58,6 +58,8 @@ Inclua contexto, Issue, alterações, validação, riscos e impacto documental. 
 
 O autor deve revisar `Files changed` antes de solicitar review. O revisor pode comentar, aprovar ou solicitar mudanças. Discussões técnicas relevantes devem permanecer na PR.
 
+O revisor pode ser qualquer outro integrante; não há revisor fixo obrigatório para cada entrega. A equipe prefere que todos leiam as PRs para compartilhar contexto e aprender, mas uma aprovação de alguém que não seja o autor é suficiente para o merge. Essa aprovação não dispensa testes, resolução de comentários obrigatórios e conferência das condições de integração.
+
 ## Merge
 
 **[DECISÃO INICIAL]** Usar merge commit para preservar o commit da atividade e o registro explícito da PR. Confirmar aprovação, checks, ausência de conflitos e head esperado antes do merge.

@@ -2,6 +2,8 @@
 
 IA pode apoiar o aprendizado e o desenvolvimento, mas não substitui entendimento, teste, decisão da equipe ou Code Review.
 
+Todos os integrantes podem usar IA como apoio didático. A pessoa continua responsável por compreender, explicar e validar o que entrega; a IA não deve assumir a implementação inteira sem participação e revisão humana.
+
 ## Usos recomendados
 
 - explicar código e conceitos;
@@ -10,6 +12,7 @@ IA pode apoiar o aprendizado e o desenvolvimento, mas não substitui entendiment
 - revisar clareza de documentação;
 - estruturar Issues e descrições de PR;
 - comparar alternativas técnicas;
+- conduzir uma revisão em conversa: pedir ao integrante que explique o código, fazer perguntas sobre escolhas e comparar outras soluções;
 - propor mudanças pequenas para revisão humana.
 
 ## Responsabilidades de quem usa
@@ -22,6 +25,8 @@ IA pode apoiar o aprendizado e o desenvolvimento, mas não substitui entendiment
 - não aceitar requisitos inventados;
 - não usar IA para contornar revisão ou proteção da `main`;
 - registrar decisões relevantes com a equipe.
+
+Comentários didáticos no código devem explicar conceitos ou decisões que ajudem uma pesquisa posterior. Evite comentários que apenas repitam a linha de código. Perguntas à IA e aos colegas podem partir desses comentários para aprofundar o entendimento.
 
 ## O que uma IA não deve decidir sozinha
 
