@@ -2,13 +2,20 @@
 
 ## Equipe 5
 
-- Eduarda — Developer;
 - Stefanie — Developer;
 - Jessica — Developer;
 - João Vinicius — Scrum Master e Developer;
 - João Santos — Product Owner e Developer.
 
+Composição atualizada em 28/09/2026 após a saída de Eduarda da equipe.
+
 Os papéis representam responsabilidades, não hierarquia. Product Owner e Scrum Master podem contribuir tecnicamente sem abandonar suas responsabilidades.
+
+## Como aprendemos juntos
+
+O projeto é voluntário e reúne integrantes com experiências diferentes em programação. O trabalho é dividido para que todos implementem, expliquem, testem e revisem partes do sistema, com espaço para pedir ajuda ao grupo. A meta é entender as decisões e o código produzido, além de praticar a colaboração usada em equipes de desenvolvimento.
+
+João Vinicius e João Santos podem apoiar colegas em início de aprendizagem, sem assumir automaticamente as tarefas deles. Ninguém precisa resolver uma dúvida sozinho, e o uso de IA deve ajudar a pessoa a aprender e justificar sua solução.
 
 ## Responsabilidades
 
@@ -63,6 +70,8 @@ Concluído
 - a distribuição acontece na Sprint Planning;
 - o responsável executa, mas a Sprint pertence à equipe;
 - toda entrega passa por revisão e validação;
+- uma aprovação de outro integrante, que não seja o autor, basta para o merge quando os demais critérios forem atendidos;
+- todos são convidados a revisar para conhecer o projeto, mas não é necessário esperar todas as revisões;
 - bloqueios devem informar problema, ajuda necessária e próximo passo;
 - decisões importantes devem permanecer no Trello, Issue, PR ou documento apropriado;
 - responsabilidades técnicas devem girar para evitar silos permanentes.
