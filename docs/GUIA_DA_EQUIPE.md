@@ -2,11 +2,12 @@
 
 ## Equipe 5
 
-- Eduarda — Developer;
 - Stefanie — Developer;
 - Jessica — Developer;
 - João Vinicius — Scrum Master e Developer;
 - João Santos — Product Owner e Developer.
+
+Composição atualizada em 28/09/2026 após a saída de Eduarda da equipe.
 
 Os papéis representam responsabilidades, não hierarquia. Product Owner e Scrum Master podem contribuir tecnicamente sem abandonar suas responsabilidades.
 
