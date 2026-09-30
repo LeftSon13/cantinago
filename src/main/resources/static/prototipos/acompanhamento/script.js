@@ -25,12 +25,12 @@ formulario.addEventListener("submit", (evento) => {
         return;
     }
 
-    const status = pedidosFicticios[codigo];
-
-    if (!status) {
+    if (!Object.hasOwn(pedidosFicticios, codigo)) {
         resultadoConsulta.textContent = "Código de pedido não encontrado.";
         return;
     }
+
+    const status = pedidosFicticios[codigo];
 
     resultadoConsulta.textContent = `Código: ${codigo} — Status: ${status}`;
 });
