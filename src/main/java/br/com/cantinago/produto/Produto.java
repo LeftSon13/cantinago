@@ -20,4 +20,11 @@ record Produto(
         BigDecimal preco,
         boolean ativo,
         boolean disponivel) {
+
+    // Exemplo: new Produto(..., new BigDecimal("0.01"), ...) é válido; zero ou valor negativo não.
+    Produto {
+        if (preco == null || preco.signum() <= 0) {
+            throw new IllegalArgumentException("O preço do produto deve ser maior que zero.");
+        }
+    }
 }
