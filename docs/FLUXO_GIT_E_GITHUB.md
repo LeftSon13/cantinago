@@ -56,11 +56,11 @@ Um commit deve contar uma parte coerente da história e não misturar correçõe
 
 Inclua contexto, Issue, alterações, validação, riscos e impacto documental. Use `Closes #N` quando a PR concluir integralmente a Issue.
 
-O autor deve revisar `Files changed` antes de solicitar review. O revisor pode comentar, aprovar ou solicitar mudanças. Discussões técnicas relevantes devem permanecer na PR.
+O autor deve revisar `Files changed` e pode publicar a PR sem autorização prévia. Depois da publicação, solicita review de todos os outros integrantes ativos. Cada integrante acompanha as PRs abertas e revisa conforme sua disponibilidade, podendo comentar, aprovar ou solicitar mudanças. Qualquer integrante que não seja o autor pode aprovar, e pelo menos uma aprovação é obrigatória para o merge. Revisões ainda não realizadas não bloqueiam o andamento depois que essa aprovação foi obtida. Discussões técnicas relevantes devem permanecer na PR.
 
 ## Merge
 
-**[DECISÃO INICIAL]** Usar merge commit para preservar o commit da atividade e o registro explícito da PR. Confirmar aprovação, checks, ausência de conflitos e head esperado antes do merge.
+**[DECISÃO INICIAL]** Usar merge commit para preservar o commit da atividade e o registro explícito da PR. Confirmar pelo menos uma aprovação de outro integrante, ausência de solicitações de mudança pendentes, checks, ausência de conflitos e head esperado antes do merge. Não é necessário aguardar todos os revisores convidados.
 
 Depois:
 
