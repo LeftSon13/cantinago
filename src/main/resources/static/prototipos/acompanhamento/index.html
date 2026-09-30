@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acompanhar pedido</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Acompanhar pedido</h1>
+        <p class="aviso-prototipo">Protótipo com dados fictícios</p>
+
+        <form>
+            <label for="codigo-pedido">Código do pedido</label>
+            <input type="text" id="codigo-pedido" name="codigo-pedido">
+            <button type="submit">Consultar</button>
+        </form>
+
+        <output id="resultado-consulta" aria-live="polite"></output>
+
+        <section aria-labelledby="codigos-disponiveis">
+            <h2 id="codigos-disponiveis">Códigos disponíveis para teste</h2>
+            <ul id="lista-codigos"></ul>
+        </section>
+    </main>
+</body>
+</html>
