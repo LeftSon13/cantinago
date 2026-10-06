@@ -6,12 +6,14 @@
 
 ```text
 pom.xml
-src/main/java/br/com/cantinago/CantinagoApplication.java
+src/main/java/br/com/cantinago/AplicacaoCantinaGo.java
+src/main/java/br/com/cantinago/produto/
 src/main/resources/application.properties
-src/test/java/br/com/cantinago/CantinagoApplicationTests.java
+src/test/java/br/com/cantinago/AplicacaoCantinaGoTest.java
+src/test/java/br/com/cantinago/produto/
 ```
 
-A classe `CantinagoApplication` é o ponto de entrada. O projeto possui Spring Web MVC e um teste que confirma o carregamento do contexto. Ainda não existem endpoints, persistência, domínio, autenticação ou frontend.
+A classe `AplicacaoCantinaGo` é o ponto de entrada. O projeto possui Spring Web MVC, um catálogo fictício em memória e o endpoint `GET /api/produtos`, que retorna somente produtos ativos e disponíveis. Existem testes de contexto e do contrato HTTP. Ainda não existem persistência, autenticação ou frontend integrado.
 
 ## Direção arquitetural
 
@@ -19,14 +21,14 @@ A classe `CantinagoApplication` é o ponto de entrada. O projeto possui Spring W
 
 ```text
 br.com.cantinago
-├── product
+├── produto
 │   ├── api
-│   ├── application
-│   └── domain
-└── order
+│   ├── aplicacao
+│   └── dominio
+└── pedido
     ├── api
-    ├── application
-    └── domain
+    ├── aplicacao
+    └── dominio
 ```
 
 O formato final deve nascer do primeiro caso de uso; não devem ser criadas camadas vazias apenas para aparentar complexidade.
@@ -45,7 +47,7 @@ Entidades de persistência não devem virar contratos HTTP automaticamente.
 - banco de dados e estratégia de migrations;
 - frontend e forma de integração;
 - autenticação e autorização;
-- contrato inicial da API;
+- evolução e versionamento dos contratos da API;
 - tratamento padronizado de erros;
 - estratégia de testes integrados;
 - implantação e configuração por ambiente.

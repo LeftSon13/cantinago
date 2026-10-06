@@ -11,7 +11,7 @@
 
 ## Estado atual
 
-Existe um teste de contexto Spring em `CantinagoApplicationTests`. Ele confirma que a aplicação consegue carregar, mas não valida funcionalidades de negócio.
+O teste `AplicacaoCantinaGoTest` confirma que o contexto Spring consegue carregar. `ControladorProdutosTest` valida o contrato HTTP do catálogo, a filtragem de produtos ativos e disponíveis e o retorno de um catálogo vazio.
 
 ## Evolução esperada
 
